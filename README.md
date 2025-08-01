@@ -9,26 +9,29 @@
 </p>
 
 
-## Skills
+## 🛠️ Skills
 
-**Programing Languages**
+**Back-end**  
+![Java](https://img.shields.io/badge/Java-%23ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring](https://img.shields.io/badge/Spring-%236DB33F?style=for-the-badge&logo=spring&logoColor=white)
+![SpringBoot](https://img.shields.io/badge/SpringBoot-%236DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![JSP](https://img.shields.io/badge/JSP-007396?style=for-the-badge&logo=java&logoColor=white)
+![MyBatis](https://img.shields.io/badge/MyBatis-000000?style=for-the-badge&logo=MySQL&logoColor=white)
 
-  ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)<br>
-  ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-  ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-  ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+**Front-end**  
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D)
 
-**Frame Work & Library**
-
-![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
-<br>
-![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
-![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white)
-
-**Database**
-
+**Database**  
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
-![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
+
+**Dev & Tools**  
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 
 
 ## Project
@@ -54,7 +57,15 @@ Spring Framework와 MySQL을 활용하여 사용자 인증 및 권한 부여 로
 
 유저 관리 시스템 개발:
 사용자 정보의 CRUD(Create, Read, Update, Delete) 기능을 MySQL과 연동하여 개발하였습니다. 이를 통해 관리자가 효율적으로 사용자 데이터를 확인하고 수정할 수 있는 기능을 제공했습니다.
+## 📘 Study Repository
 
+> 이론과 실습을 병행하며 기록한 학습 레포지토리입니다.
+
+| Repository | 내용 요약 | 링크 |
+|------------|-----------|------|
+| **CS** | 운영체제, 네트워크, 데이터베이스, OOP 등 컴퓨터공학 전반 정리 | [🔗 바로가기](https://github.com/kimsh300/CS) |
+| **DesignPattern** | Java 기반 GoF 디자인패턴 학습 (싱글톤, 팩토리, 전략 등) | [🔗 바로가기](https://github.com/kimsh300/DesignPattern) |
+| **Algorithm** | 백준 중심 알고리즘 풀이 및 시간 복잡도 학습 | [🔗 바로가기](https://github.com/kimsh300/Algolithm) |
 ## GitStats
 
 <a href="s">
