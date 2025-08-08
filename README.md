@@ -33,6 +33,14 @@
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 
+## 📌 Experience
+
+| 기간 | 회사명 | 직무 | 주요 업무 |
+|:---:|:------:|:----:|:----------|
+| 2025.04 ~ 2025.06 | **플러거(Plugger)** | 솔루션 개발자 | 마켓빌리 커머스 솔루션 개발 및 유지보수<br> Spring 기반 API 개발 및 DB 설계 <br> Vue.js , nuxt 기반 프론트 엔드 개발 |
+
+- **주요 기여**  
+
 
 ## Project
 
