@@ -70,8 +70,8 @@ Spring Framework와 MySQL을 활용하여 사용자 인증 및 권한 부여 로
 | Repository | 내용 요약 | 링크 |
 |------------|-----------|------|
 | **CS** | 운영체제, 네트워크, 데이터베이스, OOP 등 컴퓨터공학 전반 정리 | [🔗 바로가기](https://github.com/kimsh300/CS) |
-| **DesignPattern** | Java 기반 GoF 디자인패턴 학습 (싱글톤, 팩토리, 전략 등) | [🔗 바로가기](https://github.com/kimsh300/DesignPattern) |
-| **Algorithm** | 백준 중심 알고리즘 풀이 및 시간 복잡도 학습 | [🔗 바로가기](https://github.com/kimsh300/Algolithm) |
+| **DesignPattern** | Java 기반 GoF 디자인패턴 학습| [🔗 바로가기](https://github.com/kimsh300/DesignPattern) |
+| **Algorithm** | 백준 중심 알고리즘 풀이 | [🔗 바로가기](https://github.com/kimsh300/Algolithm) |
 ## GitStats
 
 <a href="s">
