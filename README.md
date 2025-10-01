@@ -20,18 +20,12 @@
 
 **Front-end**  
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D)
 
 **Database**  
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
-
-**Dev & Tools**  
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 
 ## 📌 Experience
 
@@ -43,7 +37,7 @@
 - 알림(Notification) 시스템 최적화  
   → 다중 API 호출 구조를 단일 호출 방식으로 개선, 서버 부하 및 UX 지연 해소
 - 개인정보 변경 반영 구조 개선  
-  → Java Event & EventListener 기반 비동기 처리 설계, 닉네임·프로필 이미지 변경이 모든 콘텐츠에 즉시 반영되도록 개선
+  → Java Event & EventListener 기반 비동기 처리 설계, 사용자 프로필 변경 시 리뷰·댓글 등 정보가 반영되도록 개선
 - 배송비 계산 로직 재설계  
   → 중앙 정책 구조 개인 배송비 정책 적용 및 멀티 장바구니를 위해 구조 개선 
 ## Project
