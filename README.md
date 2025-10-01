@@ -40,8 +40,12 @@
 | 2025.04 ~ 2025.06 | **플러거(Plugger)** | 솔루션 개발자 | 마켓빌리 커머스 솔루션 개발 및 유지보수<br> Spring 기반 API 개발 및 DB 설계 <br> Vue.js , nuxt 기반 프론트 엔드 개발 |
 
 - **주요 기여**  
-
-
+- 알림(Notification) 시스템 최적화  
+  → 다중 API 호출 구조를 단일 호출 방식으로 개선, 서버 부하 및 UX 지연 해소
+- 개인정보 변경 반영 구조 개선  
+  → Java Event & EventListener 기반 비동기 처리 설계, 닉네임·프로필 이미지 변경이 모든 콘텐츠에 즉시 반영되도록 개선
+- 배송비 계산 로직 재설계  
+  → 중앙 정책 구조 개인 배송비 정책 적용 및 멀티 장바구니를 위해 구조 개선 
 ## Project
 
 |Project Name|Tech Stack|Team|Period|Link|
