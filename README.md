@@ -63,6 +63,8 @@ Spring Framework와 MySQL을 활용하여 사용자 인증 및 권한 부여 로
 
 유저 관리 시스템 개발:
 사용자 정보의 CRUD(Create, Read, Update, Delete) 기능을 MySQL과 연동하여 개발하였습니다. 이를 통해 관리자가 효율적으로 사용자 데이터를 확인하고 수정할 수 있는 기능을 제공했습니다.
+
+<!-- 
 ## 📘 Study Repository
 
 > 이론과 실습을 병행하며 기록한 학습 레포지토리입니다.
@@ -72,14 +74,10 @@ Spring Framework와 MySQL을 활용하여 사용자 인증 및 권한 부여 로
 | **CS** | 운영체제, 네트워크, 데이터베이스, OOP 등 컴퓨터공학 전반 정리 | [🔗 바로가기](https://github.com/kimsh300/CS) |
 | **DesignPattern** | Java 기반 GoF 디자인패턴 학습| [🔗 바로가기](https://github.com/kimsh300/DesignPattern) |
 | **Algorithm** | 백준 중심 알고리즘 풀이 | [🔗 바로가기](https://github.com/kimsh300/Algolithm) |
-## GitStats
-
-<a href="s">
-  <p align="center">
-    <img src="https://github-readme-stats.vercel.app/api?username=kimsh300&theme=tokyonight&show_icons=true" width="45%" />
-<!--     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kimsh300&exclude_repo=dkssud8150.github.io&layout=compact&theme=tokyonight" width="35%" /> -->
-  </p>
-</a>
+-->
+## 
+ <a href="s">
+ 
 <br>
 
 <p align="center">
