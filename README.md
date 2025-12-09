@@ -1,93 +1,287 @@
 <div align="center">
   
-  ![header](https://capsule-render.vercel.app/api?type=cylinder&color=auto&height=150&section=header&text=🙌Hi!%20I'm%20SiHyeong!🙌&fontSize=50)
+  ![header](https://capsule-render.vercel.app/api?type=waving&color=0:EEFF00,100:a82da8&height=200&section=header&text=Backend%20Developer&fontSize=50&fontColor=ffffff)
 
 </div>
 
+<h3 align="center">💡 문제를 발견하고, 본질을 파악하고, 구조적으로 해결하는 개발자</h3>
+
 <p align="center">
-  <a href="mailto:aaz11512@gmail.com"><img src="https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=kimsh142536@gmail.com"/></a>&nbsp
+  <a href="mailto:kimsh142536@gmail.com"><img src="https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white"/></a>
+  <a href="https://github.com/kimsh300"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white"/></a>
+  <img src="https://komarev.com/ghpvc/?username=kimsh300&color=blueviolet&style=flat-square"/>
 </p>
 
+<br>
 
-## 🛠️ Skills
+## 👨‍💻 About Me
+```java
+public class Developer {
+    private String name = "김시형";
+    private String role = "Backend Developer";
+    private String[] strengths = {
+        "API 호출 90% 감소시킨 최적화 능력",
+        "응답시간 5초 → 0.5초 단축한 성능 개선",
+        "3개월 만에 Vue.js 실무 투입한 빠른 학습력"
+    };
+    
+    public String introduce() {
+        return "문제의 '왜?'를 질문하며 본질을 파악하고, "
+             + "확장 가능한 구조로 해결하는 개발자입니다.";
+    }
+}
+```
 
-**Back-end**  
-![Java](https://img.shields.io/badge/Java-%23ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Spring](https://img.shields.io/badge/Spring-%236DB33F?style=for-the-badge&logo=spring&logoColor=white)
-![SpringBoot](https://img.shields.io/badge/SpringBoot-%236DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+**신한DS 금융 SW 아카데미**에서 백엔드 개발을 학습하고, **주식회사 플러거**에서 실무 경험을 쌓았습니다.  
+알림 시스템 최적화로 **API 호출 90% 감소**, 비동기 처리로 **응답시간 90% 개선** 등의 성과를 달성했습니다.
+
+<br>
+
+## 🎖️ Highlights
+
+### 📈 **성과로 증명하는 개발 능력**
+
+| 문제 | 해결 | 성과 |
+|:-----|:-----|:-----|
+| 알림 삭제 시 N번 API 호출로 서버 과부하 | 일괄 처리 방식으로 재설계 | **API 호출 90% 감소** |
+| 개인정보 변경 시 5초 이상 응답 지연 | Java Event 기반 비동기 처리 | **응답시간 5초 → 0.5초** |
+| 장바구니 종속 배송비 계산의 확장 한계 | Pinia 전역 상태 관리로 분리 | **멀티 선택 기능 확장 완료** |
+
+### 🚀 **빠른 학습 능력**
+- Vue.js를 **3개월 만에 실무 투입** 수준으로 습득
+- 프론트엔드 경험 없이 풀스택 개발자로 성장
+
+<br>
+
+## 🛠️ Tech Stack
+
+### **Backend**
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+![MyBatis](https://img.shields.io/badge/MyBatis-000000?style=for-the-badge&logo=mybatis&logoColor=white)
 ![JSP](https://img.shields.io/badge/JSP-007396?style=for-the-badge&logo=java&logoColor=white)
-![MyBatis](https://img.shields.io/badge/MyBatis-000000?style=for-the-badge&logo=MySQL&logoColor=white)
 
-**Front-end**  
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+### **Frontend**
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D)
+![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white)
+![Nuxt](https://img.shields.io/badge/Nuxt-00DC82?style=for-the-badge&logo=nuxtdotjs&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-**Database**  
+### **Database**
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
 
-## 📌 Experience
+### **Security**
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
+![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white)
+![OAuth](https://img.shields.io/badge/OAuth_2.0-EB5424?style=for-the-badge&logo=auth0&logoColor=white)
 
-| 기간 | 회사명 | 직무 | 주요 업무 |
-|:---:|:------:|:----:|:----------|
-| 2025.04 ~ 2025.06 | **플러거(Plugger)** | 솔루션 개발자 | 마켓빌리 커머스 솔루션 개발 및 유지보수<br> Spring 기반 API 개발 및 DB 설계 <br> Vue.js , nuxt 기반 프론트 엔드 개발 |
+### **Tools & Collaboration**
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![Notion](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white)
 
-- **주요 기여**  
-- 알림(Notification) 시스템 최적화  
-  → 다중 API 호출 구조를 단일 호출 방식으로 개선, 서버 부하 및 UX 지연 해소
-- 개인정보 변경 반영 구조 개선  
-  → Java Event & EventListener 기반 비동기 처리 설계, 사용자 프로필 변경 시 리뷰·댓글 등 정보가 반영되도록 개선
-- 배송비 계산 로직 재설계  
-  → 중앙 정책 구조 개인 배송비 정책 적용 및 멀티 장바구니를 위해 구조 개선 
-## Project
-
-|Project Name|Tech Stack|Team|Period|Link|
-|:---:|:---:|:---:|:---:|:---:|
-|친환경 리사이클링 쇼핑몰 새롬터| Back : Java, Spring<br> Front : HTMl, CSS, JS<br> DB: MySQL | ![Team](https://img.shields.io/badge/Team-red) | 2024/05/27 ~ 2024/07/09| [Repo](https://github.com/Saerom-teo/server)|
-- 주요 업무 : 유저 관리 및 프로젝트 환경 구축
-
-- 담당 역할 : 로그인 / 회원가입 / 유저 관리 / 프로젝트 환경 구축
-
-- 기술 스택 : Spring FrameWork , Java , MySQL , Apache AirFlow , Github
-
-- 업무 기간 : 2024.05.27 ~ 2024.07.09
-
-- 개발 인원 : 6명
-
-- 상세 내용 :
-로그인/회원가입 기능 구현:
-Spring Framework와 MySQL을 활용하여 사용자 인증 및 권한 부여 로직을 설계하였습니다.
-특히, JWT(Json Web Token)를 사용해 사용자 인증 정보를 안전하게 처리하고 유지할 수 있도록 구현했습니다.
-이를 통해 세션 관리 없이도 사용자 인증 상태를 유지하고, 시스템의 확장성과 보안성을 높였습니다. 비밀번호는 암호화 알고리즘을 적용해 안전하게 저장했으며, 로그인 실패 시의 예외 처리를 통해 사용자 경험을 개선했습니다.
-
-유저 관리 시스템 개발:
-사용자 정보의 CRUD(Create, Read, Update, Delete) 기능을 MySQL과 연동하여 개발하였습니다. 이를 통해 관리자가 효율적으로 사용자 데이터를 확인하고 수정할 수 있는 기능을 제공했습니다.
-
-<!-- 
-## 📘 Study Repository
-
-> 이론과 실습을 병행하며 기록한 학습 레포지토리입니다.
-
-| Repository | 내용 요약 | 링크 |
-|------------|-----------|------|
-| **CS** | 운영체제, 네트워크, 데이터베이스, OOP 등 컴퓨터공학 전반 정리 | [🔗 바로가기](https://github.com/kimsh300/CS) |
-| **DesignPattern** | Java 기반 GoF 디자인패턴 학습| [🔗 바로가기](https://github.com/kimsh300/DesignPattern) |
-| **Algorithm** | 백준 중심 알고리즘 풀이 | [🔗 바로가기](https://github.com/kimsh300/Algolithm) |
--->
-## 
- <a href="s">
- 
 <br>
 
-<p align="center">
+## 💼 Experience
 
-![](./profile-3d-contrib/profile-green.svg)
+<details open>
+<summary><b>주식회사 플러거 (Plugger)</b> | 솔루션 개발팀 사원 | <code>2024.04 ~ 2024.06</code></summary>
 
-</p>
+<br>
 
-<div align="center">
-  
-![footer](https://capsule-render.vercel.app/api?type=cylinder&color=auto&height=150&section=header&text=🙌Thank%20you!🙌&fontSize=50)
+**프로젝트**: 마켓빌리(MarketBilly) 중고거래 플랫폼  
+**역할**: 풀스택 개발자 (백엔드 주, 프론트엔드 보조)  
+**기술**: `Spring Boot` `Vue.js` `Nuxt` `MySQL` `Pinia`
+
+### 📊 **주요 성과**
+
+#### 1️⃣ **알림 시스템 최적화 (API 호출 90% 감소)**
+**문제 상황**
+- 알림 삭제 시마다 개별 API 호출(N번) 발생
+- 서버 부하 증가 및 사용자 UX 저하
+
+**해결 과정**
+```java
+// Before: N번 API 호출
+for (Notification noti : notifications) {
+    deleteNotification(noti.getId());  // N번 호출
+}
+
+// After: 1번 일괄 처리
+List<Long> ids = notifications.stream()
+    .map(Notification::getId)
+    .collect(Collectors.toList());
+deleteNotificationsBatch(ids);  // 1번 호출
+```
+
+**결과**
+- ✅ API 호출 **90% 감소** (N번 → 1번)
+- ✅ 서버 부하 해소 및 사용자 경험 개선
+
+---
+
+#### 2️⃣ **비동기 처리 설계 (응답시간 5초 → 0.5초)**
+**문제 상황**
+- 개인정보 변경 시 리뷰, 댓글 등 여러 테이블 동기 업데이트
+- 응답 시간 5초 이상 소요
+
+**해결 과정**
+```java
+@Service
+public class UserService {
+    @Transactional
+    public void updateUserInfo(UserUpdateDto dto) {
+        // 1. 사용자 정보 먼저 업데이트
+        userRepository.update(dto);
+        
+        // 2. 이벤트 발행 (비동기)
+        eventPublisher.publishEvent(
+            new UserInfoChangedEvent(dto.getUserId())
+        );
+        
+        // 3. 즉시 응답 (0.5초)
+    }
+}
+
+@EventListener
+@Async
+public void handleUserInfoChanged(UserInfoChangedEvent event) {
+    // 백그라운드에서 처리
+    reviewService.updateUserInfo(event.getUserId());
+    commentService.updateUserInfo(event.getUserId());
+}
+```
+
+**결과**
+- ✅ 응답시간 **5초 → 0.5초** (90% 개선)
+- ✅ 사용자에게 즉각 응답 후 백그라운드 처리
+
+---
+
+#### 3️⃣ **배송비 로직 재설계 (확장 가능한 구조)**
+**문제 상황**
+- 장바구니에 종속된 고정 배송비 계산
+- 멀티 선택, 쿠폰 무료배송 등 신규 기능 추가 불가
+
+**해결 과정**
+- Pinia 전역 상태 관리로 배송 정책 분리
+- 전략 패턴 적용으로 확장 가능한 구조 설계
+
+**결과**
+- ✅ 멀티 선택 기능 추가 완료
+- ✅ 쿠폰 무료배송 정책 적용 가능
+- ✅ 향후 배송비 정책 변경 시 유연한 대응
+
+</details>
+
+<br>
+
+## 🚀 Projects
+
+### **새롬터 - 친환경 리사이클링 쇼핑몰** [![GitHub](https://img.shields.io/badge/Repo-181717?style=flat&logo=github)](https://github.com/Saerom-teo/server)
+
+`2024.05 ~ 2024.07` | 6주 팀 프로젝트 (6인) | [🎥 시연 영상](https://www.youtube.com/watch?v=2aBmCkz1ZEE)
+
+**담당 역할**: 인증/인가 시스템 개발 리드, 프로젝트 환경 구축
+
+<details>
+<summary><b>🔐 주요 구현 사항</b></summary>
+
+<br>
+
+#### **1. JWT 기반 인증 시스템**
+- Access Token 발급 (만료: 24시간)
+- HttpOnly 쿠키 방식으로 XSS 공격 방어
+- Admin/User 권한 분리
+
+**핵심 코드:**
+```java
+// JWTUtil.java - JWT 생성
+public String generateToken(PrincipalDetail userDetails, String role) {
+    return Jwts.builder()
+        .claim("id", userDetails.getUser().getUserId())
+        .claim("userEmail", userDetails.getUser().getUserEmail())
+        .claim("role", role)
+        .setIssuedAt(new Date())
+        .setExpiration(new Date(System.currentTimeMillis() + 86400000))
+        .signWith(Keys.hmacShaKeyFor(secretKey.getBytes()), SignatureAlgorithm.HS256)
+        .compact();
+}
+```
+
+---
+
+#### **2. OAuth2 소셜 로그인**
+- Google OAuth2 연동
+- Kakao OAuth2 연동
+- Spring Security OAuth2 Client 활용
+
+**핵심 코드:**
+```java
+// SecurityConfig.java - OAuth2 설정
+@Bean
+public ClientRegistrationRepository clientRegistrationRepository() {
+    return new InMemoryClientRegistrationRepository(
+        createClientRegistration("google", googleClientId, googleClientSecret, ...),
+        createClientRegistration("kakao", kakaoClientId, kakaoClientSecret, ...)
+    );
+}
+```
+
+---
+
+#### **3. 회원가입 시스템**
+- 이메일 인증 코드 발송
+- BCrypt 비밀번호 암호화
+- 신규 가입 웰컴 포인트 100점 자동 지급
+
+**회원가입 플로우:**
+```
+약관 동의 → 이메일 입력 → 인증 코드 확인 → 비밀번호 설정 → 가입 완료 + 포인트 지급
+```
+
+---
+
+#### **4. 비밀번호 재설정**
+- 이메일 인증 기반
+- 세션을 통한 임시 상태 관리
+- 보안 강화를 위한 2단계 인증
+
+</details>
+
+**협업 프로세스**
+- GitHub Issues 기반 작업 분배 및 일정 관리
+- Pull Request 코드 리뷰
+- 코드 컨벤션 준수 및 문서화
+
+**기술 스택**  
+`Spring Framework` `Java` `MySQL` `JWT` `Spring Security` `OAuth 2.0` `BCrypt` `JavaMail`
+
+**주요 성과**  
+✅ Google + Kakao 2개 소셜 로그인 연동  
+✅ JWT + OAuth2 하이브리드 인증 구현  
+✅ Admin/User 권한 분리  
+✅ 이메일 인증 시스템 구축  
+✅ 855 커밋, 6명 협업 완수  
+
+<br>
+
+## 📘 Study Repository
+
+> 꾸준히 학습하고 기록하는 개발자입니다.
+
+| Repository | 내용 | 링크 |
+|:-----------|:-----|:-----|
+| **CS** | 운영체제, 네트워크, 데이터베이스, OOP 등 CS 기초 | [![GitHub](https://img.shields.io/badge/Repo-181717?style=flat&logo=github)](https://github.com/kimsh300/CS) |
+| **Algorithm** | 백준 중심 알고리즘 문제 풀이 | [![GitHub](https://img.shields.io/badge/Repo-181717?style=flat&logo=github)](https://github.com/kimsh300/Algorithm) |
+
+<br>
+
+![footer](https://capsule-render.vercel.app/api?type=waving&color=0:a82da8,100:EEFF00&height=150&section=footer)
 
 </div>
