@@ -18,11 +18,11 @@
 ```java
 public class Developer {
     private String name = "김시형";
-    private String role = "Backend Developer";
+    private String role = "FullStack Developer";
     private String[] strengths = {
         "API 호출 90% 감소시킨 최적화 능력",
         "응답시간 5초 → 0.5초 단축한 성능 개선",
-        "3개월 만에 Vue.js 실무 투입한 빠른 학습력"
+        "빠른 학습력"
     };
     
     public String introduce() {
@@ -32,7 +32,7 @@ public class Developer {
 }
 ```
 
-**신한DS 금융 SW 아카데미**에서 백엔드 개발을 학습하고, **주식회사 플러거**에서 실무 경험을 쌓았습니다.  
+신한DS 금융 SW 아카데미에서 풀스택 개발을 학습하고, 주식회사 플러거에서 실무 경험을 쌓았습니다.  
 알림 시스템 최적화로 **API 호출 90% 감소**, 비동기 처리로 **응답시간 90% 개선** 등의 성과를 달성했습니다.
 
 <br>
@@ -45,7 +45,6 @@ public class Developer {
 |:-----|:-----|:-----|
 | 알림 삭제 시 N번 API 호출로 서버 과부하 | 일괄 처리 방식으로 재설계 | **API 호출 90% 감소** |
 | 개인정보 변경 시 5초 이상 응답 지연 | Java Event 기반 비동기 처리 | **응답시간 5초 → 0.5초** |
-| 장바구니 종속 배송비 계산의 확장 한계 | Pinia 전역 상태 관리로 분리 | **멀티 선택 기능 확장 완료** |
 
 ### 🚀 **빠른 학습 능력**
 - Vue.js를 **3개월 만에 실무 투입** 수준으로 습득
@@ -96,7 +95,7 @@ public class Developer {
 
 **프로젝트**: 마켓빌리(MarketBilly) 중고거래 플랫폼  
 **역할**: 풀스택 개발자 (백엔드 주, 프론트엔드 보조)  
-**기술**: `Spring Boot` `Vue.js` `Nuxt` `MySQL` `Pinia`
+**기술**: `Spring Boot` `Vue.js` `MySQL` 
 
 ### 📊 **주요 성과**
 
