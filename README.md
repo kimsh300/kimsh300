@@ -15,26 +15,7 @@
 <br>
 
 ## 👨‍💻 About Me
-```java
-public class Developer {
-    private String name = "김시형";
-    private String role = "FullStack Developer";
-    private String[] strengths = {
-        "API 호출 90% 감소시킨 최적화 능력",
-        "응답시간 5초 → 0.5초 단축한 성능 개선",
-        "빠른 학습력"
-    };
-    
-    public String introduce() {
-        return "문제의 '왜?'를 질문하며 본질을 파악하고, "
-             + "확장 가능한 구조로 해결하는 개발자입니다.";
-    }
-}
-```
-
-신한DS 금융 SW 아카데미에서 풀스택 개발을 학습하고, 주식회사 플러거에서 실무 경험을 쌓았습니다.  
-알림 시스템 최적화로 **API 호출 90% 감소**, 비동기 처리로 **응답시간 90% 개선** 등의 성과를 달성했습니다.
-
+신한DS 금융 SW 아카데미에서 풀스택 개발을 학습하고, **플러거에서 실무 경험**을 쌓았습니다.  
 <br>
 
 ## 🎖️ Highlights
@@ -43,8 +24,8 @@ public class Developer {
 
 | 문제 | 해결 | 성과 |
 |:-----|:-----|:-----|
-| 알림 삭제 시 N번 API 호출로 서버 과부하 | 일괄 처리 방식으로 재설계 | **API 호출 90% 감소** |
-| 개인정보 변경 시 5초 이상 응답 지연 | Java Event 기반 비동기 처리 | **응답시간 5초 → 0.5초** |
+| 알림 삭제 시 N번 API 호출로 서버 과부하 | UI 선처리 + 일괄 삭제 방식으로 재설계 | **API 호출 감소** |
+| 장바구니 종속 배송비 계산의 확장성 문제 | 전역 상태 관리로 분리 설계 | **멀티 선택, 쿠폰 정책 확장 가능** |
 
 ### 🚀 **빠른 학습 능력**
 - Vue.js를 **3개월 만에 실무 투입** 수준으로 습득
@@ -89,95 +70,59 @@ public class Developer {
 ## 💼 Experience
 
 <details open>
-<summary><b>주식회사 플러거 (Plugger)</b> | 솔루션 개발팀 사원 | <code>2024.04 ~ 2024.06</code></summary>
+<summary><b>주식회사 플러거 (Plugger)</b> | 솔루션 개발팀 사원 | <code>2025.04 ~ 2025.06</code></summary>
 
 <br>
 
 **프로젝트**: 마켓빌리(MarketBilly) 중고거래 플랫폼  
 **역할**: 풀스택 개발자 (백엔드 주, 프론트엔드 보조)  
-**기술**: `Spring Boot` `Vue.js` `MySQL` 
+**기술**: `Spring Boot` `Vue.js` `Nuxt` `MySQL` 
 
 ### 📊 **주요 성과**
 
 #### 1️⃣ **알림 시스템 최적화 (API 호출 90% 감소)**
 **문제 상황**
-- 알림 삭제 시마다 개별 API 호출(N번) 발생
-- 서버 부하 증가 및 사용자 UX 저하
+- 사용자가 알림 삭제 버튼 클릭 시마다 개별 API 호출
+- 10개 삭제 시 10번 API 호출 → 서버 부하 및 UX 저하
 
 **해결 과정**
-```java
-// Before: N번 API 호출
-for (Notification noti : notifications) {
-    deleteNotification(noti.getId());  // N번 호출
+```javascript
+// Before: 클릭할 때마다 즉시 API 호출
+async deleteNotification(notiId) {
+    await api.delete(`/notifications/${notiId}`);  // 클릭마다 호출
 }
 
-// After: 1번 일괄 처리
-List<Long> ids = notifications.stream()
-    .map(Notification::getId)
-    .collect(Collectors.toList());
-deleteNotificationsBatch(ids);  // 1번 호출
+// After: UI에서 먼저 숨김 처리, 모달 닫힐 때 일괄 삭제
+data() {
+    return {
+        deletedIds: []
+    }
+},
+
+methods: {
+    deleteNotification(notiId) {
+        this.deletedIds.push(notiId);  // 삭제 목록에 추가
+        // UI에서 즉시 숨김 처리
+    },
+    
+    // 모달 닫힐 때 (X 버튼, 외부 클릭 등)
+    async onModalClose() {
+        if (this.deletedIds.length > 0) {
+            await api.delete('/notifications/batch', { 
+                ids: this.deletedIds 
+            });
+            this.deletedIds = [];
+        }
+    }
+}
 ```
 
 **결과**
 - ✅ API 호출 **90% 감소** (N번 → 1번)
-- ✅ 서버 부하 해소 및 사용자 경험 개선
+- ✅ UI 즉시 반영으로 사용자 경험 개선
+- ✅ 서버 부하 해소
 
 ---
-
-#### 2️⃣ **비동기 처리 설계 (응답시간 5초 → 0.5초)**
-**문제 상황**
-- 개인정보 변경 시 리뷰, 댓글 등 여러 테이블 동기 업데이트
-- 응답 시간 5초 이상 소요
-
-**해결 과정**
-```java
-@Service
-public class UserService {
-    @Transactional
-    public void updateUserInfo(UserUpdateDto dto) {
-        // 1. 사용자 정보 먼저 업데이트
-        userRepository.update(dto);
-        
-        // 2. 이벤트 발행 (비동기)
-        eventPublisher.publishEvent(
-            new UserInfoChangedEvent(dto.getUserId())
-        );
-        
-        // 3. 즉시 응답 (0.5초)
-    }
-}
-
-@EventListener
-@Async
-public void handleUserInfoChanged(UserInfoChangedEvent event) {
-    // 백그라운드에서 처리
-    reviewService.updateUserInfo(event.getUserId());
-    commentService.updateUserInfo(event.getUserId());
-}
-```
-
-**결과**
-- ✅ 응답시간 **5초 → 0.5초** (90% 개선)
-- ✅ 사용자에게 즉각 응답 후 백그라운드 처리
-
----
-
-#### 3️⃣ **배송비 로직 재설계 (확장 가능한 구조)**
-**문제 상황**
-- 장바구니에 종속된 고정 배송비 계산
-- 멀티 선택, 쿠폰 무료배송 등 신규 기능 추가 불가
-
-**해결 과정**
-- Pinia 전역 상태 관리로 배송 정책 분리
-- 전략 패턴 적용으로 확장 가능한 구조 설계
-
-**결과**
-- ✅ 멀티 선택 기능 추가 완료
-- ✅ 쿠폰 무료배송 정책 적용 가능
-- ✅ 향후 배송비 정책 변경 시 유연한 대응
-
-</details>
-
 <br>
 
 ## 🚀 Projects
@@ -259,7 +204,7 @@ public ClientRegistrationRepository clientRegistrationRepository() {
 - 코드 컨벤션 준수 및 문서화
 
 **기술 스택**  
-`Spring Framework` `Java` `MySQL` `JWT` `Spring Security` `OAuth 2.0` `BCrypt` `JavaMail`
+`Spring Framework` `Java` `MySQL` `JWT` `Spring Security` `OAuth 2.0` `BCrypt` `JavaMail` `JSP`
 
 **주요 성과**  
 ✅ Google + Kakao 2개 소셜 로그인 연동  
@@ -270,7 +215,7 @@ public ClientRegistrationRepository clientRegistrationRepository() {
 
 <br>
 
-## 📘 Study Repository
+## 📘 Study & Learning
 
 > 꾸준히 학습하고 기록하는 개발자입니다.
 
@@ -281,6 +226,5 @@ public ClientRegistrationRepository clientRegistrationRepository() {
 
 <br>
 
-![footer](https://capsule-render.vercel.app/api?type=waving&color=0:a82da8,100:EEFF00&height=150&section=footer)
-
+<br>
 </div>
