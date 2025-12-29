@@ -133,7 +133,7 @@ methods: {
 
 **담당 역할**: 인증/인가 시스템 개발 리드, 프로젝트 환경 구축
 
-<details>
+<details open>
 <summary><b>🔐 주요 구현 사항</b></summary>
 
 <br>
